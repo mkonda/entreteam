@@ -1,0 +1,28 @@
+<!-- Header -->
+<header id="header"{% if page.layout == 'landing' %} class="alt"{% endif %}>
+  <h1>
+    <a class="jasp-logo" href="{{ 'index.html' | relative_url }}">
+      <span class="long-jasp-title">EntreTeam.io</span>
+    </a>
+  </h1>
+  <nav id="nav">
+    <ul>
+      <li class="special">
+        <!-- <a href="#menu" class="menuToggle"><span>Menu</span></a> -->
+        <a href="#menu" class="menuToggle"><span>&nbsp;</span></a>
+        <div id="menu">
+          <ul>
+            <li><a href="{{ 'index.html' | relative_url }}">Home</a></li>
+            {% for my_page in site.pages %}
+            {% if my_page.title and my_page.to_include_on_home_page %}
+            <li><a href="{{ my_page.url | relative_url }}">{{ my_page.title }}</a></li>
+            {% endif %}
+            {% endfor %}
+            <li><a href="{{ 'feed.xml' | relative_url }}"
+                   class="icon fa-feed"> RSS Feed</a></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </nav>
+</header>
