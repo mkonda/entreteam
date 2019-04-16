@@ -3,19 +3,12 @@
     link: /blog/
   - name: About
     link: /about/
-  - name: Contact
-    link: /contact/
-- links:
-  - name: Docs
-    link: /documentation/
+  - name: Resources
+    link: /resources/
     new_window: true
 - links:
-  - name: Facebook
-    link: https://facebook.com
-    new_window: true
-    social_icon: Facebook
   - name: Twitter
-    link: https://twitter.com
+    link: https://twitter.com/entreteamio
     social_icon: Twitter
     new_window: true
   - name: YouTube
