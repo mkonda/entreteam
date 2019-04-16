@@ -15,7 +15,7 @@ Find and join a [group](/groups.md).
 ## The Model
 
 The basic model is to form 4-6 person accountability teams and to 
-use those to try to help each person succeed.
+use those to try to help each person succeed.  Here is a pretty standard [introduction](/intro.md).
 
 ## Resources
 
